@@ -24,7 +24,7 @@ import static net.splitcells.dem.resource.FileSystemViaClassResources.resourceBa
 public class BinaryFileSystem extends OptionI<FileSystemView> {
     public BinaryFileSystem() {
         super(() -> fileSystemViaClassResources(BinaryFileSystem.class
-                , resourceBasePath("net.splitcells", "website.binaries")));
+                , resourceBasePath("net.splitcells", "website.content.binaries")));
     }
 }
 
