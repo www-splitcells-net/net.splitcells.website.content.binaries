@@ -19,12 +19,11 @@ import net.splitcells.dem.environment.config.framework.OptionI;
 import net.splitcells.dem.resource.FileSystemView;
 
 import static net.splitcells.dem.resource.FileSystemViaClassResources.fileSystemViaClassResources;
-import static net.splitcells.dem.resource.FileSystemViaClassResources.resourceBasePath;
 
 public class BinaryFileSystem extends OptionI<FileSystemView> {
     public BinaryFileSystem() {
         super(() -> fileSystemViaClassResources(BinaryFileSystem.class
-                , resourceBasePath("net.splitcells", "website.content.binaries")));
+                , "net.splitcells", "website.content.binaries"));
     }
 }
 
