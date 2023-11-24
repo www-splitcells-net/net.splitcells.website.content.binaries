@@ -17,3 +17,7 @@ target/
 .vagrant/
 # The following is created by Maven during bild.
 .flattened-pom.xml
+
+node_modules
+package-lock.json
+package.json
