@@ -2,6 +2,8 @@
 # This will be build rarely,
 # so its best to clean everything in order to avoid errors based on old cached packages.
 rm -rf node_modules
+rm package.json
+rm package-lock.json
 npm i codemirror @codemirror/lang-javascript
 npm i rollup @rollup/plugin-node-resolve
 mkdir -p src/main/resources/html/net/splitcells/website/js
