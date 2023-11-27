@@ -26214,19 +26214,11 @@
            editor.update([contentInitialization]);
            let textAreaObserver = new MutationObserver(function(mutations) {
                if (syncTarget.innerHTML != editor.state.doc.toString()) {
-               console.log("3" + syncTarget.innerHTML);
-                               let updateContent = editor.state.update({changes: {from: 0, to: editor.state.doc.length, insert: syncTarget.innerHTML}});
-                               editor.update([updateContent]);
+                   let updateContent = editor.state.update({changes: {from: 0, to: editor.state.doc.length, insert: syncTarget.innerHTML}});
+                   editor.update([updateContent]);
                }
            });
            textAreaObserver.observe(syncTarget, { attributes: true, childList: true, subtree: true,characterData: true});
-           console.log("1");
-           /*textArea.oninput = function(e) {
-               console.log("attributes changed");
-               let updateContent = editor.state.update({changes: {from: 0, to: editor.state.doc.length, insert: textArea.value}})
-                               editor.update([updateContent]);
-           };*/
-           console.log("2");
    	}
    }
    enhanceTextAreas();
