@@ -18,6 +18,13 @@ function enhanceTextAreas() {
         });
         let contentInitialization = editor.state.update({changes: {from: 0, to: editor.state.doc.length, insert: textAreaContent}})
         editor.update([contentInitialization]);
-		}
+        let textAreaObserver = new MutationObserver(function(mutations) {
+            if (syncTarget.innerHTML != editor.state.doc.toString()) {
+                let updateContent = editor.state.update({changes: {from: 0, to: editor.state.doc.length, insert: syncTarget.innerHTML}})
+                editor.update([updateContent]);
+            }
+        });
+        textAreaObserver.observe(syncTarget, { attributes: true, childList: true, subtree: true,characterData: true});
 	}
+}
 enhanceTextAreas();
