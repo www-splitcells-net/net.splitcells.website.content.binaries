@@ -12,7 +12,9 @@ function enhanceTextAreas() {
           extensions: [basicSetup, javascript()
             , EditorView.updateListener.of(function(e) {
                 syncTarget.innerHTML = e.state.doc.toString();
-            })
+            }),
+
+            EditorView.theme({".cm-scroller": {overflow: "hidden"}})
           ],
           parent: textAreas[i]
         });
