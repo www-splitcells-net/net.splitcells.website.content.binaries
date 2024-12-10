@@ -13,6 +13,12 @@ $(".net-splitcells-website-visually-replaceable").each((index, table) => {
     for (i = 0; i < ths.length; i++) {
         if (hasClass(ths[i], 'net-splitcells-website-table-popup-via-column-content')) {
             popColumn = ths[i].innerHTML;
+            /* The column containing the pop up info is not shown,
+             * as it may contain info that is higher than 1 line and therefore higher than a normal table row.
+             * As Tabulator does not seem to support scrollable cell content,
+             * the pop up column could massively waist visual GUI space.
+             */
+            continue;
         }
         columns.push({title: "" + ths[i].innerHTML, formatter:defaultColumnFormatter});
     }
