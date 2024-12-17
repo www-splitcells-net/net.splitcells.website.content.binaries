@@ -20,7 +20,10 @@ $(".net-splitcells-website-visually-replaceable").each((index, table) => {
              */
             continue;
         }
-        columns.push({title: "" + ths[i].innerHTML, formatter:defaultColumnFormatter});
+        columns.push({title: "" + ths[i].innerHTML
+            ,formatter:defaultColumnFormatter
+            ,maxInitialWidth: 300 // This is primarily set so, that the reasoning columns does not get too large.
+            });
     }
     if (popColumn != undefined) {
         config.rowClickPopup = function (e, row, onRendered) {
