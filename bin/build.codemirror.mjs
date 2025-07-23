@@ -4,6 +4,10 @@ function enhanceTextAreas() {
 	let textAreas = document.querySelectorAll(".net-splitcells-webserver-form-text-editor");
 	for (var i = 0; i < textAreas.length; i++) {
 	    let textArea = textAreas[i];
+	    if (textArea.getAttribute('net-splitcells-syncing') === 'true') {
+            continue;
+        }
+        textArea.setAttribute('net-splitcells-syncing', 'true');
 	    let textAreaContent = textArea.innerHTML;
 	    textArea.innerHTML = "";
 	    let syncTargetId = textArea.getAttribute('net-splitcells-syncs-to');
@@ -30,3 +34,19 @@ function enhanceTextAreas() {
 	}
 }
 enhanceTextAreas();
+// This observer probably is not the most efficient thing.
+var observer = new MutationObserver(
+    function(mutations, observer) {
+        for (const m of mutations) {
+            if (m.type === "childList") {
+                enhanceTextAreas();
+                break;
+            }
+         };
+    }
+);
+observer.observe(document, {
+  subtree: true,
+  childList: true
+  //...
+});
