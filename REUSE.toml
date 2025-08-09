@@ -14,4 +14,70 @@ SPDX-License-Identifier = "EPL-2.0 OR GPL-2.0-or-later"
 path = "src/main/resources/chart.js"
 precedence = "aggregate"
 SPDX-FileCopyrightText = "Contributors To The `net.splitcells.*` Projects"
-SPDX-License-Identifier = "EPL-2.0 OR GPL-2.0-or-later"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "src/main/resources/chartjs-plugin-datasource.js"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Contributors To The `net.splitcells.*` Projects"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "src/main/resources/html/net/splitcells/cin/js/three.js"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Contributors To The `net.splitcells.*` Projects"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "src/main/resources/html/net/splitcells/cin/js/controls/OrbitControls.js"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Contributors To The `net.splitcells.*` Projects"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "src/main/resources/html/net/splitcells/website/css/dragula.min.css"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Contributors To The `net.splitcells.*` Projects"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "src/main/resources/html/net/splitcells/website/css/jquery-fancytree-all-deps.min.css"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Contributors To The `net.splitcells.*` Projects"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "src/main/resources/html/net/splitcells/website/css/jquery-fancytree-all-deps.min.css"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Contributors To The `net.splitcells.*` Projects"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "src/main/resources/html/net/splitcells/website/css/tabulator.min.css"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Contributors To The `net.splitcells.*` Projects"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = ""
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Contributors To The `net.splitcells.*` Projects"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = ""
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Contributors To The `net.splitcells.*` Projects"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = ""
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Contributors To The `net.splitcells.*` Projects"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = ""
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Contributors To The `net.splitcells.*` Projects"
+SPDX-License-Identifier = "MIT"
