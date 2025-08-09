@@ -59,25 +59,61 @@ SPDX-FileCopyrightText = "Contributors To The `net.splitcells.*` Projects"
 SPDX-License-Identifier = "MIT"
 
 [[annotations]]
-path = ""
+path = "src/main/resources/html/net/splitcells/website/js/chart.js"
 precedence = "aggregate"
 SPDX-FileCopyrightText = "Contributors To The `net.splitcells.*` Projects"
 SPDX-License-Identifier = "MIT"
 
 [[annotations]]
-path = ""
+path = "src/main/resources/html/net/splitcells/website/js/chartjs-plugin-datasource.js"
 precedence = "aggregate"
 SPDX-FileCopyrightText = "Contributors To The `net.splitcells.*` Projects"
 SPDX-License-Identifier = "MIT"
 
 [[annotations]]
-path = ""
+path = "src/main/resources/html/net/splitcells/website/js/codemirror-editor-bundle.js"
 precedence = "aggregate"
 SPDX-FileCopyrightText = "Contributors To The `net.splitcells.*` Projects"
 SPDX-License-Identifier = "MIT"
 
 [[annotations]]
-path = ""
+path = "src/main/resources/html/net/splitcells/website/js/dragula.min.js"
 precedence = "aggregate"
 SPDX-FileCopyrightText = "Contributors To The `net.splitcells.*` Projects"
 SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "src/main/resources/html/net/splitcells/website/js/jquery-fancytree-all-deps.min.js"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Contributors To The `net.splitcells.*` Projects"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "src/main/resources/html/net/splitcells/website/js/jquery-fancytree-all-deps-injection.min.js"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Contributors To The `net.splitcells.*` Projects"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "src/main/resources/html/net/splitcells/website/js/mermaid.min.js"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Contributors To The `net.splitcells.*` Projects"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "src/main/resources/html/net/splitcells/website/js/tabulator.injection.js"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Contributors To The `net.splitcells.*` Projects"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "src/main/resources/html/net/splitcells/website/js/tabulator.min.js"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Contributors To The `net.splitcells.*` Projects"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "src/main/resources/html/net/splitcells/website/js/math-jax/es5/**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Contributors To The `net.splitcells.*` Projects"
+SPDX-License-Identifier = "Apache-2.0"
