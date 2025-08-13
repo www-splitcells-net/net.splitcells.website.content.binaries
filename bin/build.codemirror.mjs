@@ -3,22 +3,22 @@
 import {EditorView, basicSetup} from "codemirror"
 import {javascript} from "@codemirror/lang-javascript"
 function enhanceTextAreas() {
-	let textAreas = document.querySelectorAll(".net-splitcells-webserver-form-text-editor");
-	for (var i = 0; i < textAreas.length; i++) {
-	    let textArea = textAreas[i];
-	    if (textArea.getAttribute('net-splitcells-syncing') === 'true') {
+    let textAreas = document.querySelectorAll(".net-splitcells-webserver-form-text-editor");
+    for (var i = 0; i < textAreas.length; i++) {
+        let textArea = textAreas[i];
+        if (textArea.getAttribute('net-splitcells-syncing') === 'true') {
             continue;
         }
         textArea.setAttribute('net-splitcells-syncing', 'true');
-	    let textAreaContent = textArea.innerHTML;
+        let textAreaContent = textArea.innerHTML;
         textArea.innerHTML = ""; // This is required, so that CodeMirror has a blank div for the editor injection target.
-	    let syncTargetId = textArea.getAttribute('net-splitcells-syncs-to');
-	    let syncTarget = document.getElementById(syncTargetId);
-	    if (syncTarget.value !== undefined && syncTarget.value !== '') {
+        let syncTargetId = textArea.getAttribute('net-splitcells-syncs-to');
+        let syncTarget = document.getElementById(syncTargetId);
+        if (syncTarget.value !== undefined && syncTarget.value !== '') {
             // Ensure, that the server's first new value of a new field is used, if present.
             textAreaContent = syncTarget.value;
         }
-		let editor = new EditorView({
+        let editor = new EditorView({
           extensions: [basicSetup, javascript()
             , EditorView.updateListener.of(function(e) {
                 syncTarget.innerHTML = e.state.doc.toString();
@@ -38,7 +38,7 @@ function enhanceTextAreas() {
             }
         });
         textAreaObserver.observe(syncTarget, { attributes: true, childList: true, subtree: true,characterData: true});
-	}
+    }
 }
 enhanceTextAreas();
 // This observer probably is not the most efficient thing.
