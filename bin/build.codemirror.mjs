@@ -11,7 +11,7 @@ function enhanceTextAreas() {
         }
         textArea.setAttribute('net-splitcells-syncing', 'true');
 	    let textAreaContent = textArea.innerHTML;
-	    textArea.innerHTML = "";
+        textArea.innerHTML = ""; // This is required, so that CodeMirror has a blank div for the editor injection target.
 	    let syncTargetId = textArea.getAttribute('net-splitcells-syncs-to');
 	    let syncTarget = document.getElementById(syncTargetId);
 		let editor = new EditorView({
