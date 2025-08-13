@@ -15,6 +15,7 @@ function enhanceTextAreas() {
 	    let syncTargetId = textArea.getAttribute('net-splitcells-syncs-to');
 	    let syncTarget = document.getElementById(syncTargetId);
 	    if (syncTarget.value !== undefined && syncTarget.value !== '') {
+            // Ensure, that the server's first new value of a new field is used, if present.
             textAreaContent = syncTarget.value;
         }
 		let editor = new EditorView({
