@@ -27443,22 +27443,22 @@
   // SPDX-License-Identifier: EPL-2.0 OR GPL-2.0-or-later
   // SPDX-FileCopyrightText: Contributors To The `net.splitcells.*` Projects
   function enhanceTextAreas() {
-  	let textAreas = document.querySelectorAll(".net-splitcells-webserver-form-text-editor");
-  	for (var i = 0; i < textAreas.length; i++) {
-  	    let textArea = textAreas[i];
-  	    if (textArea.getAttribute('net-splitcells-syncing') === 'true') {
+      let textAreas = document.querySelectorAll(".net-splitcells-webserver-form-text-editor");
+      for (var i = 0; i < textAreas.length; i++) {
+          let textArea = textAreas[i];
+          if (textArea.getAttribute('net-splitcells-syncing') === 'true') {
               continue;
           }
           textArea.setAttribute('net-splitcells-syncing', 'true');
           let textAreaContent = textArea.innerHTML;
           textArea.innerHTML = ""; // This is required, so that CodeMirror has a blank div for the editor injection target.
-  	    let syncTargetId = textArea.getAttribute('net-splitcells-syncs-to');
-  	    let syncTarget = document.getElementById(syncTargetId);
-  	    alert(syncTarget.value);
-  	    if (syncTarget.value !== undefined && syncTarget.value !== '') {
+          let syncTargetId = textArea.getAttribute('net-splitcells-syncs-to');
+          let syncTarget = document.getElementById(syncTargetId);
+          if (syncTarget.value !== undefined && syncTarget.value !== '') {
+              // Ensure, that the server's first new value of a new field is used, if present.
               textAreaContent = syncTarget.value;
           }
-  		let editor = new EditorView({
+          let editor = new EditorView({
             extensions: [basicSetup, javascript()
               , EditorView.updateListener.of(function(e) {
                   syncTarget.innerHTML = e.state.doc.toString();
@@ -27478,7 +27478,7 @@
               }
           });
           textAreaObserver.observe(syncTarget, { attributes: true, childList: true, subtree: true,characterData: true});
-  	}
+      }
   }
   enhanceTextAreas();
   // This observer probably is not the most efficient thing.
