@@ -117,3 +117,15 @@ path = "src/main/resources/html/net/splitcells/website/js/math-jax/es5/**"
 precedence = "aggregate"
 SPDX-FileCopyrightText = "Contributors To The `net.splitcells.*` Projects"
 SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = "src/main/resources/html/net/splitcells/website/js/highlight.js"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Copyright (c) 2006, Ivan Sagalaev."
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = "src/main/resources/html/net/splitcells/website/css/highlight.css"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "Copyright (c) 2006, Ivan Sagalaev."
+SPDX-License-Identifier = "MIT"
