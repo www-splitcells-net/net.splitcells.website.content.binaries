@@ -37,67 +37,67 @@ SPDX-License-Identifier = "MIT"
 [[annotations]]
 path = "src/main/resources/html/net/splitcells/website/css/dragula.min.css"
 precedence = "aggregate"
-SPDX-FileCopyrightText = "Contributors To The `net.splitcells.*` Projects"
+SPDX-FileCopyrightText = "Copyright © 2015-2016 Nicolas Bevacqua"
 SPDX-License-Identifier = "MIT"
 
 [[annotations]]
 path = "src/main/resources/html/net/splitcells/website/css/jquery-fancytree-all-deps.min.css"
 precedence = "aggregate"
-SPDX-FileCopyrightText = "Contributors To The `net.splitcells.*` Projects"
+SPDX-FileCopyrightText = "Copyright 2008-2023 Martin Wendt, https://wwWendt.de/"
 SPDX-License-Identifier = "MIT"
 
 [[annotations]]
 path = "src/main/resources/html/net/splitcells/website/css/jquery-fancytree-all-deps.min.css"
 precedence = "aggregate"
-SPDX-FileCopyrightText = "Contributors To The `net.splitcells.*` Projects"
+SPDX-FileCopyrightText = "Copyright 2008-2023 Martin Wendt, https://wwWendt.de/"
 SPDX-License-Identifier = "MIT"
 
 [[annotations]]
 path = "src/main/resources/html/net/splitcells/website/css/tabulator.min.css"
 precedence = "aggregate"
-SPDX-FileCopyrightText = "Contributors To The `net.splitcells.*` Projects"
+SPDX-FileCopyrightText = "Copyright (c) 2015-2025 Oli Folkerd"
 SPDX-License-Identifier = "MIT"
 
 [[annotations]]
 path = "src/main/resources/html/net/splitcells/website/js/chart.js"
 precedence = "aggregate"
-SPDX-FileCopyrightText = "Contributors To The `net.splitcells.*` Projects"
+SPDX-FileCopyrightText = "Copyright (c) 2014-2024 Chart.js Contributors"
 SPDX-License-Identifier = "MIT"
 
 [[annotations]]
 path = "src/main/resources/html/net/splitcells/website/js/chartjs-plugin-datasource.js"
 precedence = "aggregate"
-SPDX-FileCopyrightText = "Contributors To The `net.splitcells.*` Projects"
+SPDX-FileCopyrightText = "Copyright (c) 2014-2024 Chart.js Contributors"
 SPDX-License-Identifier = "MIT"
 
 [[annotations]]
 path = "src/main/resources/html/net/splitcells/website/js/codemirror-editor-bundle.js"
 precedence = "aggregate"
-SPDX-FileCopyrightText = "Contributors To The `net.splitcells.*` Projects"
+SPDX-FileCopyrightText = "Copyright (C) 2018 by Marijn Haverbeke <marijn@haverbeke.berlin>, Adrian Heine <mail@adrianheine.de>, and others"
 SPDX-License-Identifier = "MIT"
 
 [[annotations]]
 path = "src/main/resources/html/net/splitcells/website/js/dragula.min.js"
 precedence = "aggregate"
-SPDX-FileCopyrightText = "Contributors To The `net.splitcells.*` Projects"
+SPDX-FileCopyrightText = "Copyright © 2015-2016 Nicolas Bevacqua"
 SPDX-License-Identifier = "MIT"
 
 [[annotations]]
 path = "src/main/resources/html/net/splitcells/website/js/jquery-fancytree-all-deps.min.js"
 precedence = "aggregate"
-SPDX-FileCopyrightText = "Contributors To The `net.splitcells.*` Projects"
+SPDX-FileCopyrightText = "Copyright 2008-2023 Martin Wendt, https://wwWendt.de/"
 SPDX-License-Identifier = "MIT"
 
 [[annotations]]
 path = "src/main/resources/html/net/splitcells/website/js/jquery-fancytree-all-deps-injection.min.js"
 precedence = "aggregate"
-SPDX-FileCopyrightText = "Contributors To The `net.splitcells.*` Projects"
+SPDX-FileCopyrightText = "Copyright 2008-2023 Martin Wendt, https://wwWendt.de/"
 SPDX-License-Identifier = "MIT"
 
 [[annotations]]
 path = "src/main/resources/html/net/splitcells/website/js/mermaid.min.js"
 precedence = "aggregate"
-SPDX-FileCopyrightText = "Contributors To The `net.splitcells.*` Projects"
+SPDX-FileCopyrightText = "Copyright (c) 2014 - 2022 Knut Sveidqvist"
 SPDX-License-Identifier = "MIT"
 
 [[annotations]]
@@ -109,13 +109,13 @@ SPDX-License-Identifier = "MIT"
 [[annotations]]
 path = "src/main/resources/html/net/splitcells/website/js/tabulator.min.js"
 precedence = "aggregate"
-SPDX-FileCopyrightText = "Contributors To The `net.splitcells.*` Projects"
+SPDX-FileCopyrightText = "Copyright (c) 2015-2025 Oli Folkerd"
 SPDX-License-Identifier = "MIT"
 
 [[annotations]]
 path = "src/main/resources/html/net/splitcells/website/js/math-jax/es5/**"
 precedence = "aggregate"
-SPDX-FileCopyrightText = "Contributors To The `net.splitcells.*` Projects"
+SPDX-FileCopyrightText = "Contributors To The MathJax Project"
 SPDX-License-Identifier = "Apache-2.0"
 
 [[annotations]]
