@@ -7,8 +7,8 @@
 rm -rf node_modules
 rm package.json
 rm package-lock.json
-npm i codemirror @codemirror/lang-javascript
-npm i rollup @rollup/plugin-node-resolve
+npm install codemirror @codemirror/lang-javascript
+npm install rollup @rollup/plugin-node-resolve
 mkdir -p src/main/resources/html/net/splitcells/website/js
 node_modules/.bin/rollup bin/build.codemirror.mjs \
   -f iife \
