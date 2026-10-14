@@ -89,12 +89,6 @@ SPDX-FileCopyrightText = "Copyright 2008-2023 Martin Wendt, https://wwWendt.de/"
 SPDX-License-Identifier = "MIT"
 
 [[annotations]]
-path = "src/main/resources/html/net/splitcells/website/js/jquery-fancytree-all-deps-injection.min.js"
-precedence = "aggregate"
-SPDX-FileCopyrightText = "Copyright 2008-2023 Martin Wendt, https://wwWendt.de/"
-SPDX-License-Identifier = "MIT"
-
-[[annotations]]
 path = "src/main/resources/html/net/splitcells/website/js/mermaid.min.js"
 precedence = "aggregate"
 SPDX-FileCopyrightText = "Copyright (c) 2014 - 2022 Knut Sveidqvist"
