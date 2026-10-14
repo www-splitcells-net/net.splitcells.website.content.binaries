@@ -83,7 +83,7 @@ SPDX-FileCopyrightText = "Copyright © 2015-2016 Nicolas Bevacqua"
 SPDX-License-Identifier = "MIT"
 
 [[annotations]]
-path = "src/main/resources/html/net/splitcells/website/js/jquery-fancytree-all-deps.min.js"
+path = "src/main/resources/html/net/splitcells/website/js/fancytree-all-deps.min.js"
 precedence = "aggregate"
 SPDX-FileCopyrightText = "Copyright 2008-2023 Martin Wendt, https://wwWendt.de/"
 SPDX-License-Identifier = "MIT"

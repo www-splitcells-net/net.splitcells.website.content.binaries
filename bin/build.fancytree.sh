@@ -12,5 +12,5 @@ npm install --save-dev rollup @rollup/plugin-node-resolve
 mkdir -p src/main/resources/html/net/splitcells/website/js
 node_modules/.bin/rollup bin/build.fancytree.mjs \
   -f iife \
-  -o src/main/resources/html/net/splitcells/website/js/jquery-fancytree-all-deps.min.js \
+  -o src/main/resources/html/net/splitcells/website/js/fancytree-all-deps.min.js \
   -p @rollup/plugin-node-resolve
